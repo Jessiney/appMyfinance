@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "FinancasApp",
+    "slug": "FinancasApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.jpeg",
+    "scheme": "myficancasapp",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/logo.jpeg",
+        "backgroundImage": "./assets/images/logo.jpeg",
+        "monochromeImage": "./assets/images/logo.jpeg"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.caroll123456.FinancasApp"
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/images/logo.jpeg"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/logo.jpeg",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ],
+      "@react-native-community/datetimepicker",
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": false,
+      "reactCompiler": false
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "8e5b4774-3785-43f8-8f05-2a4c8207e89f"
+      }
+    }
+  }
+}
